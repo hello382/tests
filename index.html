@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>六格子网页示例</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0; /* 设置整体背景色 */
+  }
+
+  .header {
+    background-image: url('header-background.jpg'); /* 更换顶部背景图片的路径 */
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    text-align: center;
+    color: white;
+  }
+
+
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 将屏幕分为3列 */
+    gap: 20px; /* 网格之间的间隙 */
+    padding: 20px;
+    margin-top: 20px; /* 调整网格容器与顶部的间距 */
+  }
+  
+  .grid-item {
+    background-color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .product-img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .price {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .product-link {
+    display: block;
+    text-decoration: none;
+    color: #007bff;
+    margin-top: auto; /* 将链接推到底部 */
+  }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>预售手办页面( •̀ ω •́ )，看上的请与摊主联系</h1>
+</div>
+
+<div class="grid-container">
+  <div class="grid-item">
+    <img src="index (4).webp" alt="Product 1" class="product-img">
+    <div class="price">$123</div>
+    <a href="" class="product-link">世嘉 广井菊里 景品手办 - </a>
+  </div>
+  <div class="grid-item">
+    <img src="https://i0.hdslb.com/bfs/mall/mall/09/11/0911d27fffc58bbad650b4c0bfa87838.png@1125w_1125h_85q.webp" alt="Product 2" class="product-img">
+    <div class="price">$150</div>
+    <a href="" class="product-link">FuRyu 泡面压 Vsinger 洛天依 CODE LUO ver. 景品手办 - </a>
+  </div>
+  <div class="grid-item">
+    <img src="https://i0.hdslb.com/bfs/mall/mall/55/eb/55eb9327dbed445805d47c13e251cff2.png@522w_522h_85q.webp" alt="Product 3" class="product-img">
+    <div class="price">$120</div>
+    <a href="" class="product-link">TAITO 时崎狂三 ～私服ver.～Renewal 景品手办 - </a>
+  </div>
+  <div class="grid-item">
+    <img src="https://i0.hdslb.com/bfs/mall/mall/17/2b/172b4b431afc68a5f93ec83f5802f995.png@522w_522h_85q.webp" alt="Product 4" class="product-img">
+    <div class="price">$123</div>
+    <a href="" class="product-link">FuRyu 初音未来 薄荷抹茶巴菲 景品手办 - </a>
+  </div>
+  
+  <div class="grid-item">
+    <img src="https://i0.hdslb.com/bfs/mall/mall/ed/16/ed16ff87ab4b5f6adf9f2533f12367ff.png@522w_522h_85q.webp" alt="Product 6" class="product-img">
+    <div class="price">$90</div>
+    <a href="" class="product-link">世嘉 初音未来 DEMONSTAR 景品手办 - </a>
+  </div>
+</div>
+
+</body>
+</html>
